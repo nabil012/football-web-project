@@ -39,10 +39,7 @@ nav {
   border-radius: 5px;
   background-color: #e02c6d;
 }
-.login:hover {
-  background-color: white;
-  color: #e02c6d;
-}
+
 .fas {
   margin-right: 8px;
   color: white;
