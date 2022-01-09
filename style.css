@@ -39,16 +39,15 @@ nav {
   border-radius: 5px;
   background-color: #e02c6d;
 }
-.login a:hover {
-  color: rgb(255, 255, 0);
+.login:hover {
+  background-color: white;
+  color: #e02c6d;
 }
 .fas {
   margin-right: 8px;
   color: white;
 }
-.fas:hover {
-  color: rgb(255, 255, 0);
-}
+
 .header-section {
   background-color: #2d25a0;
 }
@@ -90,6 +89,9 @@ nav {
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
 }
+.players p {
+  color: #6c6c6c;
+}
 .player {
   border: 1px solid;
   width: 300px;
@@ -103,4 +105,51 @@ nav {
 }
 .player:hover {
   box-shadow: 5px 5px 5px 5px #e02c6d;
+}
+.highlights {
+  margin-top: 120px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.highlights-heading {
+  font-size: 48px;
+  font-weight: 700;
+}
+.highlights-information {
+  padding-left: 250px;
+  width: 50%;
+  align-items: center;
+}
+.highlights-show {
+  width: 50%;
+}
+.highlights-show img {
+  width: 567px;
+  height: 430px;
+}
+.highlights p {
+  color: #6c6c6c;
+}
+.watch-now {
+  margin-top: 10px;
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 15px;
+  background-color: #e02c6d;
+  border-radius: 2px;
+}
+footer {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.logo img {
+  width: 484px;
+}
+.icon img {
+  width: 32px;
+  height: 32px;
 }
