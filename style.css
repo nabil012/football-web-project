@@ -1,0 +1,106 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+header {
+  background-color: #2d25a0;
+  padding-bottom: 80px;
+}
+nav ul li {
+  list-style: none;
+  color: white;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  gap: 40px;
+}
+nav {
+  margin-right: 20px;
+}
+.horizontal:hover {
+  color: #e02c6d;
+}
+.navbar {
+  display: flex;
+  margin-left: 65px;
+  padding-top: 20px;
+}
+.login a {
+  text-decoration: none;
+  color: white;
+}
+.login {
+  margin-left: 45%;
+  margin-top: 11px;
+  height: 25px;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e02c6d;
+}
+.login a:hover {
+  color: rgb(255, 255, 0);
+}
+.fas {
+  margin-right: 8px;
+  color: white;
+}
+.fas:hover {
+  color: rgb(255, 255, 0);
+}
+.header-section {
+  background-color: #2d25a0;
+}
+.heading {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 64px;
+}
+
+.watch-live a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 15px;
+  background-color: #e02c6d;
+  border-radius: 2px;
+}
+.header-section {
+  display: flex;
+  justify-content: space-around;
+}
+.information {
+  width: 50%;
+  margin-left: 100px;
+  padding-right: 100px;
+}
+.banner {
+  width: 50%;
+  margin-left: 20px;
+}
+.banner img {
+  width: 60%;
+}
+.players-section {
+  margin-top: 40px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+.player {
+  border: 1px solid;
+  width: 300px;
+  margin: 25px;
+  border: 15px solid white;
+  box-shadow: 5px 5px 5px 2px gray;
+}
+.player img {
+  width: 300px;
+  height: 256px;
+}
+.player:hover {
+  box-shadow: 5px 5px 5px 5px #e02c6d;
+}
